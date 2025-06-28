@@ -1,0 +1,42 @@
+# Nvidia NeMo Guardrails
+nemo-guardrails>=0.5.0
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+accelerate>=0.20.0
+
+# API and web framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+pre-commit>=3.3.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.2.0
+mkdocstrings>=0.22.0
+
+# Monitoring and logging
+wandb>=0.15.0
+loguru>=0.7.0
+
+# Optional: OpenAI API for examples
+openai>=1.0.0 
